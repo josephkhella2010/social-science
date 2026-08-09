@@ -103,7 +103,7 @@ const useStyles = createUseStyles({
 
     "&:hover": {
       backgroundColor: "#f5f5f5",
-      color: "#000",
+      color: "#2F5D3A",
     },
   },
 
@@ -153,7 +153,7 @@ const useStyles = createUseStyles({
     padding: "10px 12px",
     borderRadius: "6px",
     fontSize: "14px",
-    color: "#333",
+    color: "#2F5D3A",
     cursor: "pointer",
     boxSizing: "border-box",
     transition: "background-color 0.2s ease",
