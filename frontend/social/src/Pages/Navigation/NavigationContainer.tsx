@@ -96,7 +96,7 @@ const useStyles = createUseStyles({
     padding: "12px 16px",
     fontSize: "15px",
     fontWeight: 500,
-    color: "#333",
+    color: "#2F5D3A",
     cursor: "pointer",
     borderRadius: "6px",
     transition: "all 0.2s ease",
@@ -181,9 +181,11 @@ const useStyles = createUseStyles({
     margin: 0,
     fontSize: "14px",
     fontWeight: 600,
-    border: "1px solid black",
+    border: "1px solid #2F5D3A",
+
     padding: "8px 12px",
     borderRadius: "6px",
+    color: "#2F5D3A",
   },
 });
 

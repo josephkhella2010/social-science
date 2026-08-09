@@ -46,6 +46,7 @@ const useStyles = createUseStyles({
     margin: 0,
     fontSize: "14px",
     fontWeight: 500,
+    color: "#2F5D3A",
   },
 });
 
