@@ -19,6 +19,9 @@ const useStyles = createUseStyles({
     position: "absolute",
     top: "70px",
     right: "10px",
+    "@media (max-width: 700px)": {
+      right: "0px",
+    },
   },
 
   languageItem: {

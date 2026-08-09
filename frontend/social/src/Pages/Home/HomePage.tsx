@@ -13,9 +13,9 @@ const useStyles = createUseStyles({
     padding: "80px 30px",
     display: "flex",
     alignItems: "center",
-    gap: 80,
+    gap: 20,
 
-    "@media (max-width: 768px)": {
+    "@media (max-width: 920px)": {
       flexDirection: "column",
       padding: "50px 20px",
       gap: 40,
@@ -46,8 +46,8 @@ const useStyles = createUseStyles({
     fontFamily: "Georgia, serif",
     color: "#234D2E",
 
-    "@media (max-width: 768px)": {
-      fontSize: 42,
+    "@media (max-width: 700px)": {
+      fontSize: 30,
     },
   },
 

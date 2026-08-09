@@ -168,6 +168,9 @@ const useStyles = createUseStyles({
     width: "100px",
     display: "flex",
     alignItems: "center",
+    "@media (max-width: 700px)": {
+      width: "fit-content",
+    },
   },
 
   languageButton: {
