@@ -12,7 +12,7 @@ import TemplateLessonTwoAR from "./lessonsTemplates/TemplateLessonTwoAR";
 export const lessonsArr = [
   {
     id: 2,
-    lessonTitle: "Kapitel 1 och 2",
+    lessonTitle: "Kapitel 1 Och 2: Individ och Identitet",
 
     templateSV: <TemplateLessonTwo />,
     templateAR: <TemplateLessonTwoAR />,

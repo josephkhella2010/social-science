@@ -125,7 +125,9 @@ export default function TemplateLessonTwo() {
 
   return (
     <div className={classes.container}>
-      <h1 className={classes.title}>Sammanfattning – Kapitel 1 och 2</h1>
+      <h1 className={classes.title}>
+        Sammanfattning – Kapitel 1 Och 2: Individ och Identitet
+      </h1>
       <p className={classes.subtitle}>Samhällskunskap 1b</p>
 
       {/* ===== KAPITEL 1 ===== */}

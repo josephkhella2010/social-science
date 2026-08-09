@@ -137,7 +137,9 @@ export default function TemplateLessonTwoAR() {
 
   return (
     <div className={classes.container}>
-      <h1 className={classes.title}>ملخص – الفصلين 1 و 2</h1>
+      <h1 className={classes.title}>
+        ملخص – الفصل الأول والثاني: الفرد والهوية
+      </h1>
       <p className={classes.subtitle}>الدراسات الاجتماعية 1b</p>
 
       {/* ===== الفصل 1 ===== */}
