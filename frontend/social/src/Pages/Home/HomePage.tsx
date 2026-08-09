@@ -204,10 +204,10 @@ export default function HomePage() {
         <div className={classes.heroContent}>
           <span className={classes.label}>Digital bok</span>
 
-          <h1 className={classes.title}>Individ och Identitet</h1>
+          <h1 className={classes.title}>SamhallKungskap Niva 1b</h1>
 
           <p className={classes.subtitle}>
-            En introduktion till människan, identitet, relationer och samhället
+            En introduktion till människan, Politik, relationer och samhället
             omkring oss.
           </p>
 
@@ -229,8 +229,10 @@ export default function HomePage() {
           <h2 className={classes.sectionTitle}>Om boken</h2>
 
           <p className={classes.sectionDescription}>
-            Boken handlar om hur människor utvecklas, hur identitet skapas och
-            hur familj, vänner, kultur och samhälle påverkar vem vi blir.
+            Boken handlar om samhällskunskap och hjälper dig att förstå hur
+            samhället fungerar, hur människor påverkar varandra och hur
+            demokrati, politik, ekonomi och olika samhällsfrågor formar vår
+            vardag.
           </p>
 
           {/* Chapters */}
@@ -241,8 +243,8 @@ export default function HomePage() {
               <h3 className={classes.chapterTitle}>Individ och identitet</h3>
 
               <p className={classes.chapterText}>
-                Vad innebär det att vara en individ? Hur utvecklas vår
-                identitet?
+                Hur fungerar samhället? Vad är demokrati och hur påverkar
+                politik, lagar och ekonomi människors vardag?
               </p>
             </article>
 
@@ -265,7 +267,8 @@ export default function HomePage() {
               <h3 className={classes.chapterTitle}>Relationer och samhälle</h3>
 
               <p className={classes.chapterText}>
-                Hur påverkar människor och samhället vår identitet och våra val?
+                Hur fungerar samhället, och hur kan vi som medborgare påverka
+                det?{" "}
               </p>
             </article>
           </div>
@@ -275,12 +278,13 @@ export default function HomePage() {
       {/* Quote */}
       <section className={classes.about}>
         <p className={classes.quote}>
-          "Vem vi är formas både av oss själva och av världen omkring oss."
+          "Genom att förstå samhället förstår vi också vår roll i det och hur vi
+          tillsammans kan påverka vår framtid."{" "}
         </p>
       </section>
 
       {/* Footer */}
-      <footer className={classes.footer}>© 2026 Individ och Identitet</footer>
+      <footer className={classes.footer}>© 2026 Samhällskunskap</footer>
     </div>
   );
 }
