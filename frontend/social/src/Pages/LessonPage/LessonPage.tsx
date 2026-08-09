@@ -8,9 +8,7 @@ const useStyles = createUseStyles({
   container: {
     padding: "70px 20px",
     "@media (max-width: 600px)": {
-      container: {
-        padding: " 70px 0px",
-      },
+      padding: " 70px 0px",
     },
   },
 });
