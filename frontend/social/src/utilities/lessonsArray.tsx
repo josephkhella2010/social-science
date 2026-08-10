@@ -2,6 +2,8 @@ import TemplateLessonFive from "./lessonsTemplates/TemplateLessonFive";
 import TemplateLessonFiveAR from "./lessonsTemplates/TemplateLessonFiveAR";
 import TemplateLessonFour from "./lessonsTemplates/TemplateLessonFour";
 import TemplateLessonFourAR from "./lessonsTemplates/TemplateLessonFourAR";
+import TemplateLessonSeven from "./lessonsTemplates/TemplateLessonSeven";
+import TemplateLessonSevenAR from "./lessonsTemplates/TemplateLessonSevenAR";
 import TemplateLessonSix from "./lessonsTemplates/TemplateLessonSix";
 import TemplateLessonSixAR from "./lessonsTemplates/TemplateLessonSixAR";
 import TemplateLessonThree from "./lessonsTemplates/TemplateLessonThree";
@@ -40,9 +42,20 @@ export const lessonsArr = [
   },
   {
     id: 6,
-    lessonTitle: "Kapitel 6: Statsskick Och Demokrati",
+    lessonTitle: "KAPITEL 6: SÅ STYRS Sverige",
 
     templateSV: <TemplateLessonSix />,
     templateAR: <TemplateLessonSixAR />,
   },
+
+   {
+    id: 7,
+    lessonTitle: "KAPITEL 7: SÅ STYRS KOMMUNEN",
+
+    templateSV: <TemplateLessonSeven />,
+    templateAR: <TemplateLessonSevenAR />,
+  },
+
+
+  
 ];

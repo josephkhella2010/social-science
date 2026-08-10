@@ -137,7 +137,7 @@ export default function StatsskickOchDemokratiArabic() {
 
   return (
     <div className={classes.container}>
-      <h1 className={classes.title}>الفصل 6: النظام السياسي والديمقراطية</h1>
+      <h1 className={classes.title}>الفصل السادس: 6-  هكذا تُحكم السويد</h1>
       <p className={classes.subtitle}>ملخص كامل</p>
 
       {/* ===== 1. القوانين الأساسية ===== */}

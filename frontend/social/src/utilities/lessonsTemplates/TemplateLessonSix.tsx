@@ -125,7 +125,7 @@ export default function TemplateLessonSix() {
 
   return (
     <div className={classes.container}>
-      <h1 className={classes.title}>KAPITEL 6: STATSSKICK OCH DEMOKRATI</h1>
+      <h1 className={classes.title}>KAPITEL 6: SÅ STYRS Sverige</h1>
       <p className={classes.subtitle}>Fullständig sammanfattning</p>
 
       {/* ===== 1. GRUNDLAGARNA ===== */}
