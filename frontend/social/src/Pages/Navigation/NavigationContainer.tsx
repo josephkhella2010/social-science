@@ -133,7 +133,6 @@ const useStyles = createUseStyles({
     borderRadius: "8px",
     boxShadow: "0 8px 25px rgba(0, 0, 0, 0.12)",
     zIndex: 1000,
-
     opacity: 0,
     visibility: "hidden",
     transform: "translateY(-8px)",
@@ -145,6 +144,11 @@ const useStyles = createUseStyles({
       visibility: "visible",
       transform: "translateY(0)",
     },
+    height: "300px",
+    overflow: "hidden",
+    overflowY: "auto",
+    scrollbarWidth: "none",
+    msOverflowStyle: "none",
   },
 
   lessonItem: {
@@ -278,7 +282,14 @@ export default function NavigationContainer() {
                 className={classes.lessonItem}
                 onClick={() => handleNavigation("lesson", lesson.id)}
               >
-                {lesson.lessonTitle}
+                {lesson.lessonTitle
+                  .split(" ")
+                  .map(
+                    (word) =>
+                      word.charAt(0).toUpperCase() +
+                      word.slice(1).toLowerCase(),
+                  )
+                  .join(" ")}{" "}
               </div>
             ))}
           </div>
