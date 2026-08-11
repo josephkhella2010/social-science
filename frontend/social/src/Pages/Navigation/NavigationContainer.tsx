@@ -267,7 +267,7 @@ export default function NavigationContainer() {
           Home
         </li>
 
-        {/* LESSONS */}
+        {/* LESSONS  cool*/}
         <li className={`${classes.navItem} ${classes.lessonsItem}`}>
           <div className={classes.lessonsTitle}>
             Lessons
