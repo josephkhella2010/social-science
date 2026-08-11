@@ -308,7 +308,7 @@ export default function NavigationContainer() {
           <p className={classes.languageCode}>{lang.toUpperCase()}</p>
         </div>
 
-        {/* LANGUAGE DROPDOWN  cool */}
+        {/* LANGUAGE DROPDOWN  */}
         {showDropDown && <LanguageDropDown handleLanguage={handleLanguage} />}
       </div>
     </nav>
