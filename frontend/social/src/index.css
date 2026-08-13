@@ -127,20 +127,27 @@ p * {
 
 /* add */
 @media (max-width: 700px) {
-  h1, h2, h3, h4, h5, h6,
-  h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  h1 *,
+  h2 *,
+  h3 *,
+  h4 *,
+  h5 *,
+  h6 * {
     font-size: 20px !important;
     font-weight: 700 !important;
-      word-break: break-all !important;
-          overflow-wrap: anywhere !important;
-
-
-  }
-   li *, span *{
-       word-break: break-all !important;
+    word-break: break-all !important;
     overflow-wrap: anywhere !important;
-        font-size: 15px !important;
-
-
+  }
+  li *,
+  span * {
+    word-break: break-all !important;
+    overflow-wrap: anywhere !important;
+    font-size: 15px !important;
   }
 }
